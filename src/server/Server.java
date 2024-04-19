@@ -1,18 +1,19 @@
-package ChatApp;
+package server;
+
+import uiRes.GenericFrame;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.lang.reflect.Array;
 import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 
-public class Server extends GenericWindow implements Runnable {
+public class Server extends GenericFrame implements Runnable {
 
     JTextArea textArea;
 

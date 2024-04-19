@@ -1,4 +1,4 @@
-package ChatApp;
+package server;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -7,7 +7,6 @@ public class PackageDataSend implements Serializable {
 
     private String nick, message, ip;
     ArrayList<String> connectedClients = new ArrayList<>();
-
 
     public String getNick() {
         return nick;
