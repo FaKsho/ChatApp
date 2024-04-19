@@ -6,11 +6,11 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class AppStarter extends GenericFrame {
+public class AppLauncher extends GenericFrame {
 
-    public static void main(String[] args) { AppStarter appStarter = new AppStarter(); }
+    public static void main(String[] args) { AppLauncher appLauncher = new AppLauncher(); }
 
-    AppStarter() {
+    AppLauncher() {
 
         setTitle("Starter");
 
