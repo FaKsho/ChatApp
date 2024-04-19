@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="AppStarter">
+  <artifact type="jar" name="ChatAppArtifact">
     <output-path>$USER_HOME$/Desktop/VMShare</output-path>
-    <root id="archive" name="AppStarter.jar">
+    <root id="archive" name="ChatAppArtifact.jar">
       <element id="module-output" name="ChatApp" />
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
